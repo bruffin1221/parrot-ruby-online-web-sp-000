@@ -1,6 +1,6 @@
-def parrot(phrase="Pretty bird|")
-  sound="Squawk!"
-  puts "#{phrase}"
+def parrot(sound="Squawk")
+  phrase="Pretty bird!"
+  puts "#{sound}"
   puts "Squawk!"
-  return sound
+  return phrase
 end
